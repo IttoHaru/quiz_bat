@@ -86,11 +86,11 @@ set w=0
     )
     
 :q2
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 2
     color 0c
     echo Question 2
@@ -113,11 +113,11 @@ set w=0
     )
     
 :q3
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 3
     color 04
     echo Question 3
@@ -139,11 +139,11 @@ set w=0
     )
 
 :q4
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 4
     color 0c
     echo Question 4
@@ -167,11 +167,11 @@ set w=0
     )
 
 :q5
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 5
     color 04
     echo Question 5
@@ -193,11 +193,11 @@ set w=0
     )
 
 :q6
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 6
     color 0c
     echo Question 6
@@ -219,11 +219,11 @@ set w=0
     )
 
 :q7
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 7
     color 04
     echo Question 7
@@ -246,11 +246,11 @@ set w=0
     )
 
 :q8
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 8
     color 0c
     echo Question 8
@@ -274,11 +274,11 @@ set w=0
     )
 
 :q9
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 9
     color 04
     echo Question 9
@@ -290,9 +290,9 @@ set w=0
     echo [B] = 
     echo [C] = 
     echo.
-    set /p ansN=
+    set /p ans9=
     ::logging logic
-    if %ansN%==a (
+    if %ans9%==a (
     set /a k=%k%+1
     goto q10
     ) else (
@@ -301,11 +301,11 @@ set w=0
     )
 
 :q10
-    ::delete after
+    cls
+    ::debug
     echo %k%
     echo %w%
     ::
-    ::cls
     title Question 10
     color 0c
     echo Question 10
@@ -317,9 +317,9 @@ set w=0
     echo [B] = 
     echo [C] = 
     echo.
-    set /p ansN=
+    set /p ans10=
     ::logging logic
-    if %ansN%==a (
+    if %ans10%==a (
     set /a k=%k%+1
     goto finish
     ) else (
@@ -328,3 +328,6 @@ set w=0
     )
 
 :finish
+    cls
+    echo %k%
+    echo %w%
