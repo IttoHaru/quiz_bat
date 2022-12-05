@@ -24,7 +24,7 @@
 [B]=SLA
 ##
 ### 6. Jakou metodu 3D tiskárny využívají?
-<ins>**[A]=Addative manufaturing**</ins>
+<ins>**[A]=Adative manufacturing**</ins>
 [B]=subtractive manufacturing
 ##
 ### 7. Co používá SLA tiskárna?
