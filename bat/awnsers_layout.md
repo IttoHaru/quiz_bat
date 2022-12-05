@@ -19,6 +19,27 @@
 **[C]=180 - 230 °C** 
 [D]=180 - a více °C
 ##
-### 5. 
+### 5. Jaký typ tiskáren je jednodužší na post-processing?
+**[A]=FDM**
+[B]=SLA
+##
+### 6. Jakou metodu 3D tiskárny využívají?
+**[A]=Addative manufaturing**
+[B]=subtractive manufacturing
+##
+### 7. Co používá SLA tiskárna?
+[A]=Pelety
+[B]=Filament
+**[C]Tekutý resin**
+##
+### 8. Je filament vyysoce náchylný na vlhkost?
+[A]=Ano, všechny
+[B]=Žádný není náchylný
+[C]=Vlhkost je pro filament důležitá
+**[D]=Některé více jak jiné**
+##
+### 9. 
+
+
 
 
