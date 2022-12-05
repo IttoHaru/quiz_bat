@@ -8,6 +8,6 @@ Code for bat project I3.C
 - everithing in class separation
 
 # Recources
-https://github.com/harshsri2208/cmd-quiz-game/blob/master/QuizGame.bat
-https://stackoverflow.com/
-https://stackoverflow.com/questions/33985285/what-does-pause-nul-mean-do-in-batch
+- https://github.com/harshsri2208/cmd-quiz-game/blob/master/QuizGame.bat
+- https://stackoverflow.com/
+- https://stackoverflow.com/questions/33985285/what-does-pause-nul-mean-do-in-batch
