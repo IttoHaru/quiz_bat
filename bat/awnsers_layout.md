@@ -1,42 +1,42 @@
-# Quiz 3D tisk
-### 1. Který materiál je v 3D tisku nejpoužívanější?
+# Quiz 3D prniting
+### 1. What material is most common in 3D printing?
 <ins>**[A]=PLA**</ins> 
 [B]=ABS 
 [C]=Nylon
 ##
-### 2. Kdo je největším českým výrobcem 3D tiskáren?
+### 2. ho is the biggest czech 3D printer manufaturer?
 [A]=Creality 
 <ins>**[B]=Prusa**</ins>
 [C]=Bamboolabs
 ##
-### 3. Jaký tip hotendu pro FDM tiskárny je lepší?
+### 3. What type of hotend is better?
 [A]=PTFE 
 <ins>**[B]=ALLMETAL**</ins>
 ##
-### 4. Pod jakým teplotním rozsahem se tiskne většina PLA?
+### 4. What temperature range is used the most for PLA?
 [A]=120 - 250 °C 
 [B]=200 - 220 °C 
 <ins>**[C]=180 - 230 °C**</ins> 
-[D]=180 - a více °C
+[D]=180 - and more °C
 ##
-### 5. Jaký typ tiskáren je jednodužší na post-processing?
+### 5. What type of 3D printer is easier for post processing?
 <ins>**[A]=FDM**</ins>
 [B]=SLA
 ##
-### 6. Jakou metodu 3D tiskárny využívají?
+### 6. What method does 3D printing use?
 <ins>**[A]=Adative manufacturing**</ins>
 [B]=subtractive manufacturing
 ##
-### 7. Co používá SLA tiskárna?
+### 7. What does SLA printer use?
 [A]=Pelety
 [B]=Filament
-<ins>**[C]Tekutý resin**</ins>
+<ins>**[C]Liquid resin**</ins>
 ##
-### 8. Je filament vysoce náchylný na vlhkost?
-[A]=Ano, všechny
-[B]=Žádný není náchylný
-[C]=Vlhkost je pro filament důležitá
-<ins>**[D]=Některé více jak jiné**</ins>
+### 8. Are filament sensitive to humidity?
+[A]=Yes, all of them
+[B]=None of them are
+[C]=Humidity is important for filament
+<ins>**[D]=Some less, Some more**</ins>
 ##
 ### 9. 
 
