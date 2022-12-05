@@ -1,6 +1,7 @@
 ::menuc = menuchoice
 ::gs = game start
-
+::prc = percentage
+::ttl = total awnsers
 
 @echo off
 title 3D printing quiz
@@ -38,9 +39,14 @@ set w=0
     echo ------------------------------------------
     echo made by: Ondrej Plzak I3.C
     echo ------------------------------------------
+    echo.
     echo contacts
+    echo ---------
     echo GitHub: @IttoHaru
     echo Discord: IttoHaru#2854
+    echo.
+    echo.
+    echo.
     pause
     cls
     goto menu
@@ -75,7 +81,7 @@ set w=0
     echo [B] = ABS
     echo [C] = Nylon
     echo.
-    set /p ans1=
+    set /p ans1= Awnser: 
     ::logging logic
     if %ans1%==a (
     set /a k=%k%+1
@@ -102,7 +108,7 @@ set w=0
     echo [B] = Prusa
     echo [C] = Bamboolabs
     echo.
-    set /p ans2=
+    set /p ans2= Awnser: 
     ::logging logic
     if %ans2%==b (
     set /a k=%k%+1
@@ -128,7 +134,7 @@ set w=0
     echo [A] = PTFE
     echo [B] = ALLMETAL
     echo.
-    set /p ans3=
+    set /p ans3= Awnser: 
     ::logging logic
     if %ans3%==b (
     set /a k=%k%+1
@@ -156,7 +162,7 @@ set w=0
     echo [C] = 180 - 230
     echo [D] = 180 - and more
     echo.
-    set /p ans4=
+    set /p ans4= Awnser: 
     ::logging logic
     if %ans4%==c (
     set /a k=%k%+1
@@ -182,7 +188,7 @@ set w=0
     echo [A] = FDM
     echo [B] = SLA
     echo.
-    set /p ans5=
+    set /p ans5= Awnser: 
     ::logging logic
     if %ans5%==a (
     set /a k=%k%+1
@@ -208,7 +214,7 @@ set w=0
     echo [A] = Adative manufacturing
     echo [B] = Subtractive manufacturing
     echo.
-    set /p ans6=
+    set /p ans6= Awnser: 
     ::logging logic
     if %ans6%==a (
     set /a k=%k%+1
@@ -235,7 +241,7 @@ set w=0
     echo [B] = Filament
     echo [C] = Liquid resin
     echo.
-    set /p ans7=
+    set /p ans7= Awnser: 
     ::logging logic
     if %ans7%==c (
     set /a k=%k%+1
@@ -263,7 +269,7 @@ set w=0
     echo [C] = Humidity is important for filament
     echo [D] = Some less, Some more
     echo.
-    set /p ans8=
+    set /p ans8= Awnser: 
     ::logging logic
     if %ans8%==d (
     set /a k=%k%+1
@@ -284,15 +290,14 @@ set w=0
     echo Question 9
     echo -----------
     echo.
-    echo (Question)
+    echo Can you print ninjaflex on bowden tube setup?
     echo.
-    echo [A] = 
-    echo [B] = 
-    echo [C] = 
+    echo [A] = Yes
+    echo [B] = No
     echo.
-    set /p ans9=
+    set /p ans9= Awnser: 
     ::logging logic
-    if %ans9%==a (
+    if %ans9%==b (
     set /a k=%k%+1
     goto q10
     ) else (
@@ -311,23 +316,45 @@ set w=0
     echo Question 10
     echo -----------
     echo.
-    echo (Question)
+    echo What is the firmware used on most printers?
     echo.
-    echo [A] = 
-    echo [B] = 
-    echo [C] = 
+    echo [A] = Teacup
+    echo [B] = Grbl
+    echo [C] = Sprinter
+    echo [D] = Aprinter
+    echo [E] = Marlin
+    echo [F] = Klipper
     echo.
-    set /p ans10=
+    set /p ans10= Awnser: 
     ::logging logic
-    if %ans10%==a (
+    if %ans10%==e (
     set /a k=%k%+1
-    goto finish
+    goto finn
     ) else (
     set /a w=%w%+1
-    goto finish
+    goto finn
     )
 
-:finish
+:finn
     cls
-    echo %k%
-    echo %w%
+    title Finish
+    set /a ttl=%k%+%w%
+    set /a prc=(100/%ttl%)*%k%
+    color 0a
+    echo This is the end of the quiz
+    echo ----------------------------
+    echo Here are your results: 
+    echo.
+    echo You had %k% correct awnsers
+    echo.
+    echo You had %w% incorrect awnsers
+    echo.
+    echo That means, you had %prc% percent correct
+    echo.
+    echo.
+    echo Return to menu? (y/n)
+    set /p rtrn=
+
+    if %rtrn% == y goto menu
+    if %rtrn% == n exit
+    goto finn
