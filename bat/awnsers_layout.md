@@ -38,8 +38,16 @@
 [C]=Humidity is important for filament
 <ins>**[D]=Some less, Some more**</ins>
 ##
-### 9. 
-
-
+### 9. Can you print ninjaflex on bowden tube setup?
+[A]=Yes
+<ins>**[B]=No**</ins>
+##
+### 10. What is the firmware used on most printers?
+[A]=Teacup
+[B]=Grbl
+[C]=Sprinter
+[D]=Aprinter
+<ins>**[E]=Marlin**</ins>
+[F]=Klipper
 
 
