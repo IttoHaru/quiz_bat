@@ -32,7 +32,7 @@
 [B]=Filament
 <ins>**[C]Tekutý resin**</ins>
 ##
-### 8. Je filament vyysoce náchylný na vlhkost?
+### 8. Je filament vysoce náchylný na vlhkost?
 [A]=Ano, všechny
 [B]=Žádný není náchylný
 [C]=Vlhkost je pro filament důležitá
