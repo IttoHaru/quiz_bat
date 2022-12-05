@@ -2,10 +2,11 @@
 Code for bat project I3.C
 
 # Features
-- wrong/correct awnser counter
-- percentage of correct awnsers
-- easy to increase or decrease awnse option count
-- everithing in class separation
+- Menu
+- Wrong/correct awnser counter
+- Percentage of correct awnsers
+- Easy to increase or decrease awnse option count
+- Everithing in class separation
 
 # Recources
 - https://github.com/harshsri2208/cmd-quiz-game/blob/master/QuizGame.bat
