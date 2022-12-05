@@ -1,42 +1,42 @@
 # Quiz 3D tisk
 ### 1. Který materiál je v 3D tisku nejpoužívanější?
-**[A]=PLA** 
+<ins>**[A]=PLA**</ins> 
 [B]=ABS 
 [C]=Nylon
 ##
 ### 2. Kdo je největším českým výrobcem 3D tiskáren?
 [A]=Creality 
-**[B]=Prusa** 
+<ins>**[B]=Prusa**</ins>
 [C]=Bamboolabs
 ##
 ### 3. Jaký tip hotendu pro FDM tiskárny je lepší?
 [A]=PTFE 
-**[B]=ALLMETAL**
+<ins>**[B]=ALLMETAL**</ins>
 ##
 ### 4. Pod jakým teplotním rozsahem se tiskne většina PLA?
 [A]=120 - 250 °C 
 [B]=200 - 220 °C 
-**[C]=180 - 230 °C** 
+<ins>**[C]=180 - 230 °C**</ins> 
 [D]=180 - a více °C
 ##
 ### 5. Jaký typ tiskáren je jednodužší na post-processing?
-**[A]=FDM**
+<ins>**[A]=FDM**</ins>
 [B]=SLA
 ##
 ### 6. Jakou metodu 3D tiskárny využívají?
-**[A]=Addative manufaturing**
+<ins>**[A]=Addative manufaturing**</ins>
 [B]=subtractive manufacturing
 ##
 ### 7. Co používá SLA tiskárna?
 [A]=Pelety
 [B]=Filament
-**[C]Tekutý resin**
+<ins>**[C]Tekutý resin**</ins>
 ##
 ### 8. Je filament vyysoce náchylný na vlhkost?
 [A]=Ano, všechny
 [B]=Žádný není náchylný
 [C]=Vlhkost je pro filament důležitá
-**[D]=Některé více jak jiné**
+<ins>**[D]=Některé více jak jiné**</ins>
 ##
 ### 9. 
 
