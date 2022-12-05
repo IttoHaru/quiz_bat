@@ -4,7 +4,7 @@ Code for bat project I3.C
 # Features
 - wrong/correct awnser counter
 - percentage of correct awnsers
-- easy to increase or decrease awnsers
+- easy to increase or decrease awnse option count
 - everithing in class separation
 
 # Recources
