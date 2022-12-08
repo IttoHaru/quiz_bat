@@ -98,8 +98,8 @@ set w=0
 :q2
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 2
     color 0c
@@ -129,8 +129,8 @@ set w=0
 :q3
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 3
     color 04
@@ -159,8 +159,8 @@ set w=0
 :q4
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 4
     color 0c
@@ -191,8 +191,8 @@ set w=0
 :q5
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 5
     color 04
@@ -221,8 +221,8 @@ set w=0
 :q6
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 6
     color 0c
@@ -251,8 +251,8 @@ set w=0
 :q7
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 7
     color 04
@@ -282,8 +282,8 @@ set w=0
 :q8
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 8
     color 0c
@@ -314,8 +314,8 @@ set w=0
 :q9
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 9
     color 04
@@ -344,8 +344,8 @@ set w=0
 :q10
     cls
     ::debug
-    echo %k%
-    echo %w%
+    ::echo %k%
+    ::echo %w%
     ::
     title Question 10
     color 0c
