@@ -85,9 +85,13 @@ set w=0
     ::logging logic
     if %ans1%==a (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q2
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q2
     )
     
@@ -112,9 +116,13 @@ set w=0
     ::logging logic
     if %ans2%==b (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q3
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q3
     )
     
@@ -138,9 +146,13 @@ set w=0
     ::logging logic
     if %ans3%==b (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q4
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q4
     )
 
@@ -166,9 +178,13 @@ set w=0
     ::logging logic
     if %ans4%==c (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q5
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q5
     )
 
@@ -192,9 +208,13 @@ set w=0
     ::logging logic
     if %ans5%==a (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q6
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q6
     )
 
@@ -218,9 +238,13 @@ set w=0
     ::logging logic
     if %ans6%==a (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q7
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q7
     )
 
@@ -245,9 +269,13 @@ set w=0
     ::logging logic
     if %ans7%==c (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q8
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q8
     )
 
@@ -273,9 +301,13 @@ set w=0
     ::logging logic
     if %ans8%==d (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q9
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q9
     )
 
@@ -299,9 +331,13 @@ set w=0
     ::logging logic
     if %ans9%==b (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto q10
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto q10
     )
 
@@ -329,9 +365,13 @@ set w=0
     ::logging logic
     if %ans10%==e (
     set /a k=%k%+1
+    echo Correct!
+    pause
     goto finn
     ) else (
     set /a w=%w%+1
+    echo Wrong!
+    pause
     goto finn
     )
 
